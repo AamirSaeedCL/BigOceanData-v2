@@ -1,0 +1,23 @@
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4rem;
+    background-color: #f2f2d9;
+    padding: .5rem 1rem .5rem 1rem;
+    font-size: 20px;
+    width:400px;
+    float: right;
+    z-index: 99999;
+    height:6.2rem;
+
+    .btn-primary{
+      width: 370px;
+      top: 2.7rem;
+      position: absolute;
+    }
+    #detail{
+      top: 4.7rem;
+      width: 370px;
+      position: absolute;
+    }
+  } 

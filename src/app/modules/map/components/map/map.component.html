@@ -1,0 +1,15 @@
+ <google-map
+  height="1024px"
+  width="100%"
+  [zoom]="defaultZoom"
+  [center]="defaultCenter"
+  [options]="defaultOptions">
+      <map-marker
+      *ngFor="let v of vessels"
+      [position]="v.position"
+      [label]="v.name"
+      [title]="v.name"
+      [options]="v.options"
+      (mapClick)="selectVessel(v)">
+    </map-marker>
+</google-map>
